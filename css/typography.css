@@ -3,3 +3,63 @@
   - Dark green: #060 - rgb(0, 100, 0)
   - Dark red: #600 - rgb(100, 0, 0)
  */
+
+html {
+  font: normal 100%/1.5 Georgia, serif; /* 16px/24px */
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr {
+  margin: 0 0 1.5rem;
+}
+
+.yotta {
+  font-size: 7.4784rem;
+  line-height: 1.0029;
+}
+
+.zetta {
+  font-size: 5.6102rem;
+  line-height: 1.0695;
+}
+
+h1, .exa {
+  font-size: 4.2087rem;
+  line-height: 1.0692;
+}
+
+h2, .peta {
+  font-size: 3.1573rem;
+  line-height: 1.4253;
+}
+
+h3, .tera {
+  font-size: 2.3686rem;
+  line-height: 1.2666;
+}
+
+h4, .giga {
+  font-size: 1.7769rem;
+  line-height: 1.6883;
+}
+
+h5, .mega {
+  font-size: 1.3330rem;
+  line-height: 1.1253;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  line-height: 1.5000;
+}
+
+small, .milli {
+  font-size: 0.7502rem;
+  line-height: 1.9995;
+}
+
+.micro {
+  font-size: 0.5628rem;
+  line-height: 2.6653;
+}
