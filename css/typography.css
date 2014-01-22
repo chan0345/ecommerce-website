@@ -28,57 +28,57 @@ h2, h4, h6 {
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
-  margin: 0 0 1.5rem;
+	margin: 0 0 1.5rem;
 }
 
 .yotta {
-  font-size: 2.9126rem;
-  line-height: 1.0300;
+	font-size: 2.9126rem;
+	line-height: 1.0300;
 }
 
 .zetta {
-  font-size: 2.5001rem;
-  line-height: 1.2000;
+	font-size: 2.5001rem;
+	line-height: 1.2000;
 }
 
 h1, .exa {
-  font-size: 2.1460rem;
-  line-height: 1.3979;
+	font-size: 2.1460rem;
+	line-height: 1.3979;
 }
 
 h2, .peta {
-  font-size: 1.8421rem;
-  line-height: 1.6286;
+	font-size: 1.8421rem;
+	line-height: 1.6286;
 }
 
 h3, .tera {
-  font-size: 1.5812rem;
-  line-height: 1.8973;
+	font-size: 1.5812rem;
+	line-height: 1.8973;
 }
 
 h4, .giga {
-  font-size: 1.3572rem;
-  line-height: 1.1052;
+	font-size: 1.3572rem;
+	line-height: 1.1052;
 }
 
 h5, .mega {
-  font-size: 1.1650rem;
-  line-height: 1.2876;
+	font-size: 1.1650rem;
+	line-height: 1.2876;
 }
 
 h6, .kilo {
-  font-size: 1.0000rem;
-  line-height: 1.5000;
+	font-size: 1.0000rem;
+	line-height: 1.5000;
 }
 
 small, .milli {
-  font-size: 0.8584rem;
-  line-height: 1.7475;
+	font-size: 0.8584rem;
+	line-height: 1.7475;
 }
 
 .micro {
-  font-size: 0.7368rem;
-  line-height: 2.0358;
+	font-size: 0.7368rem;
+	line-height: 2.0358;
 }
 
 /* Linked Headings */
@@ -202,6 +202,7 @@ blockquote {
 	margin: 0 15% 1.5rem;
 	padding: 0.75em;
 	background-color: rgba(0,153,153,0.35);
+	border-radius: 25px;
 }
 
 blockquote p {
@@ -227,8 +228,8 @@ ins {
 	border-bottom: 0.1em solid rgba(255,102,0,1);
 }
 
-del {
-	text-decoration: line-through solid rgb(255,102,0);
+del, s {
+	color: rgb(255,102,0);
 }
 
 mark {
@@ -239,7 +240,6 @@ mark {
 
 table {
 	width: 100%;
-	
 	border-collapse: collapse;
 	table-layout: fixed;
 }
@@ -248,7 +248,7 @@ caption {
 	font-style: oblique;
 }
 
-thead, th {
+th {
 	background-color: rgba(0,153,153,0.5);
 }
 
