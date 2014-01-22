@@ -5,7 +5,11 @@
  */
 
 html {
-  font: normal 100%/1.5 Georgia, serif; /* 16px/24px */
+	font: normal 100%/1.5 'Economica', sans-serif; /* 16px/24px */
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font: bold 100%/1.5 'Coustard', serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -15,38 +19,38 @@ blockquote, table, hr {
 }
 
 .yotta {
-  font-size: 7.4784rem;
-  line-height: 1.0029;
+  font-size: 2.9126rem;
+  line-height: 1.0300;
 }
 
 .zetta {
-  font-size: 5.6102rem;
-  line-height: 1.0695;
+  font-size: 2.5001rem;
+  line-height: 1.2000;
 }
 
 h1, .exa {
-  font-size: 4.2087rem;
-  line-height: 1.0692;
+  font-size: 2.1460rem;
+  line-height: 1.3979;
 }
 
 h2, .peta {
-  font-size: 3.1573rem;
-  line-height: 1.4253;
+  font-size: 1.8421rem;
+  line-height: 1.6286;
 }
 
 h3, .tera {
-  font-size: 2.3686rem;
-  line-height: 1.2666;
+  font-size: 1.5812rem;
+  line-height: 1.8973;
 }
 
 h4, .giga {
-  font-size: 1.7769rem;
-  line-height: 1.6883;
+  font-size: 1.3572rem;
+  line-height: 1.1052;
 }
 
 h5, .mega {
-  font-size: 1.3330rem;
-  line-height: 1.1253;
+  font-size: 1.1650rem;
+  line-height: 1.2876;
 }
 
 h6, .kilo {
@@ -55,11 +59,11 @@ h6, .kilo {
 }
 
 small, .milli {
-  font-size: 0.7502rem;
-  line-height: 1.9995;
+  font-size: 0.8584rem;
+  line-height: 1.7475;
 }
 
 .micro {
-  font-size: 0.5628rem;
-  line-height: 2.6653;
+  font-size: 0.7368rem;
+  line-height: 2.0358;
 }
