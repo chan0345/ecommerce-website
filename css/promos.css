@@ -1,3 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.small-promo {
+	width: 33.333%;
+	float: left;
+	margin: 1rem;
+	text-align: center;
+}
