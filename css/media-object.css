@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .media {
-	border: 3px dotted green;
+	border: 2px dotted #099;
 	overflow: hidden;
 	margin-bottom: 1rem;
 }
