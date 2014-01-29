@@ -1,13 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*
+  Colour Palette
+  - Dark Grey: #333 - rgb(51, 51, 51)
+  - Turquoise: #099 - rgb(0, 153, 153)
+  - Dark Turquoise: #066 - rgba(0,102,102)
+  - Orange: #F60 - rgb(255,102,0)
+  - Dark Orange: #963 - rgba(153,102,51,1);
+*/
+
 .img-flex {
 	display: block;
 	width: 100%;
 }
 
 .product {
-	background-color: #c7c0ae;
-	border-radius: 8px;
+	background-color: #EEE;
+	border-radius: 0;
 	padding: 1em;
 }
