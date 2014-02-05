@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.product-details {
-	text-align: center;
+.product-img {
+	width: 50%;
+	margin-bottom: 1rem;
+	overflow: auto;
+	float: left;
 }

@@ -1,6 +1,49 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*
+  Colour Palette
+  - Dark Grey: #333 - rgb(51, 51, 51)
+  - Turquoise: #099 - rgb(0, 153, 153)
+  - Dark Turquoise: #066 - rgba(0,102,102)
+  - Orange: #F60 - rgb(255,102,0)
+  - Dark Orange: #963 - rgba(153,102,51,1);
+*/
+
 .logo {
-	width: 100%;
+	width: 25%;
+	float: left;
+}
+
+nav li {
+	display: inline-block;
+}
+
+ul li:before {
+	content: "";
+	color: #F60;
+	position: absolute;
+	left: 0em;
+}
+
+a,
+a:link,
+a:visited {
+	border-bottom: none;
+	background-color: #099;
+	color: #fff;
+	margin: 0 5px;
+	padding: 5px 15px;
+	border-radius: 15px;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: white;
+	background-color: #099;
+}
+
+.pattern {
+	text-align: center;
 }
