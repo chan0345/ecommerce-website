@@ -1,12 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.small-promo {
-	width: 33.333%;
-	float: left;
-	margin: 1rem;
+body {
 	text-align: center;
-	background-color: #EEE;
-	border-radius: 8px;
-	padding: 0.5rem;
+}
+
+.small-promo {
+	padding: 0 10%;
+}
+
+.small-promo div {
+	margin: 1rem 2%;
 }

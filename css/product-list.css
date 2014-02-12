@@ -9,15 +9,31 @@
   - Orange: #F60 - rgb(255,102,0)
   - Dark Orange: #963 - rgba(153,102,51,1);
 */
+.product {
+	padding: 1em;
+	text-align: center;
+}
 
 .img-flex {
 	display: block;
 	width: 100%;
 }
 
-.product {
-	background-color: #EEE;
-	border-radius: 8px;
-	padding: 1em;
-	text-align: center;
+ul {
+	padding: 0;
+	margin-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 30em) {
+	.product .img-flex {
+		margin-bottom: 1rem;
+		padding-right: 1rem;
+	}
+}
+	
+@media only screen and (min-width: 50em) {
+	.product .list-group,
+	.description {
+		padding-top: 2rem;
+	}
 }
