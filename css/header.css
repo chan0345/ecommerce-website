@@ -18,6 +18,21 @@ header {
 	width: 75px;
 }
 
+.pattern {
+	text-align: center;
+}
+
+header hr {
+	margin-top: 1rem;
+}
+
+header h1,
+header h2 {
+	margin-bottom: 0.25rem;
+}
+
+/* Navigation */
+
 nav li {
 	display: block;
 	margin: 0.75rem;
@@ -29,6 +44,61 @@ ul li:before {
 
 ul {
 	padding: 0;
+}
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	display: block;
+	position: absolute;
+	top: 2px;
+	right: 1%;
+	height: 40px;
+	width: 40px;
+	background: #099 url('../images/nav-icon.svg') no-repeat center center;
+	border: none;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border-radius: 20px;
+
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active {
+	background-color: #069;
+}
+
+.nav-btn[data-state="active"] {
+	background: transparent url('../images/nav-close.svg') no-repeat center center;
+}
+
+.nav-btn[data-state="active"]:hover,
+.nav-btn[data-state="active"]:focus,
+.nav-btn[data-state="active"]:active {
+	background-color: #069;
+}
+
+.nav-top {
+	max-height: 0;
+	-moz-transition: all 250ms linear;
+	-o-transition: all 250ms linear;
+	-webkit-transition: all 250ms linear;
+	transition: all 250ms linear;
+	overflow: hidden;
+}
+
+.nav-top[data-state="expanded"] {
+	max-height: 14rem;
 }
 
 nav a,
@@ -48,19 +118,6 @@ nav a:active {
 	color: #099;
 	background-color: #fff;
 	border: 2px solid #099;
-}
-
-.pattern {
-	text-align: center;
-}
-
-header hr {
-	margin-top: 1rem;
-}
-
-header h1,
-header h2 {
-	margin-bottom: 0.25rem;
 }
 
 @media only screen and (min-width: 25em) {
