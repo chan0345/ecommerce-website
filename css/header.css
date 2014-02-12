@@ -10,40 +10,62 @@
   - Dark Orange: #963 - rgba(153,102,51,1);
 */
 
+header {
+	text-align: center;
+}
+
 .logo {
-	width: 25%;
-	float: left;
+	width: 75px;
 }
 
 nav li {
-	display: inline-block;
+	display: block;
+	margin: 0.75rem;
 }
 
 ul li:before {
 	content: "";
-	color: #F60;
-	position: absolute;
-	left: 0em;
 }
 
-a,
-a:link,
-a:visited {
+ul {
+	padding: 0;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
 	border-bottom: none;
 	background-color: #099;
 	color: #fff;
 	margin: 0 5px;
-	padding: 5px 15px;
+	padding: 5px 45px;
 	border-radius: 15px;
 }
 
-a:hover,
-a:focus,
-a:active {
-	color: white;
-	background-color: #099;
+nav a:hover,
+nav a:focus,
+nav a:active {
+	color: #099;
+	background-color: #fff;
+	border: 2px solid #099;
 }
 
 .pattern {
 	text-align: center;
+}
+
+header hr {
+	margin-top: 1rem;
+}
+
+header h1,
+header h2 {
+	margin-bottom: 0.25rem;
+}
+
+@media only screen and (min-width: 25em) {
+	nav li {
+		display: inline-block;
+		margin: 0.5rem 1%;
+	}
 }
