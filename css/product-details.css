@@ -7,3 +7,7 @@
 	overflow: auto;
 	float: left;
 }
+
+.product-details {
+	text-align: center;
+}
