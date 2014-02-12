@@ -4,3 +4,36 @@
 footer {
 	text-align: center;
 }
+
+nav li {
+	display: block;
+	margin: 1rem;
+}
+
+ul {
+	padding: 0;
+}
+
+ul li:before {
+	content: "";
+	color: #F60;
+	position: absolute;
+}
+
+a,
+a:link,
+a:visited {
+	border-bottom: none;
+	background-color: #099;
+	color: #fff;
+	margin: 0 5px;
+	padding: 5px 45px;
+	border-radius: 15px;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: white;
+	background-color: #099;
+}
