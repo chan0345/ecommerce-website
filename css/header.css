@@ -61,21 +61,21 @@ ul {
 	right: 1%;
 	height: 40px;
 	width: 40px;
-	background: #099 url('../images/nav-icon.svg') no-repeat center center;
-	border: none;
+	background: transparent url('../images/nav-icon.svg') no-repeat center center;
+	border: 2px solid #099;
 	
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	-ms-border-radius: 20px;
 	-o-border-radius: 20px;
 	border-radius: 20px;
-
 }
 
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active {
-	background-color: #069;
+	background-color: #F60;
+	border: none;
 }
 
 .nav-btn[data-state="active"] {
@@ -85,7 +85,8 @@ ul {
 .nav-btn[data-state="active"]:hover,
 .nav-btn[data-state="active"]:focus,
 .nav-btn[data-state="active"]:active {
-	background-color: #069;
+	background-color: #F60;
+	border: none;
 }
 
 .nav-top {
@@ -120,9 +121,47 @@ nav a:active {
 	border: 2px solid #099;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 30em) {
 	nav li {
 		display: inline-block;
 		margin: 0.5rem 1%;
+	}
+	
+	.nav {
+		overflow: auto;
+		margin-bottom: 0;
+	}
+	
+	.nav-btn,
+	.nav-btn:link,
+	.nav-btn:visited {
+		display: none;
+	}
+	
+	.nav-top {
+		max-height: 5rem;
+		margin-bottom: 0.25rem;
+	}
+	
+	.nav ul {
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (min-width: 35em) {
+	.nav {
+		margin: 0 10%;
+	}
+}
+
+@media only screen and (min-width: 45em) {
+	.nav {
+		margin: 0 20%;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	.nav {
+		margin: 0;
 	}
 }
