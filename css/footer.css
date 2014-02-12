@@ -14,6 +14,10 @@ footer {
 	text-align: center;
 }
 
+footer h2 {
+	margin-bottom: 0.25rem;
+}
+
 nav li {
 	display: block;
 	margin: 1rem;
@@ -27,6 +31,10 @@ ul li:before {
 	content: "";
 	color: #F60;
 	position: absolute;
+}
+
+footer nav li:first-child {
+	margin-top: 0;
 }
 
 nav a,
@@ -108,18 +116,26 @@ nav a:active {
 @media only screen and (min-width: 40em) {
 	nav li {
 		display: inline-block;
-		margin: 0.5rem 5%;
+		margin: 0.5rem 1%;
+	}
+	
+	footer {
+		padding: 0 7%;
 	}
 }
 
 @media only screen and (min-width: 55em) {
 	nav li {
-		margin: 0.5rem 2%;
+		margin: 0.5rem 1%;
 	}
 }
 
 @media only screen and (min-width: 70em) {
 	nav li {
 		margin: 0.5rem 4%;
+	}
+	
+	footer {
+		padding: 0 20%;
 	}
 }
