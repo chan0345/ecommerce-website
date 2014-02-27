@@ -22,7 +22,6 @@
 
 input {
 	display: block;
-	border: 2px dotted #000;
 }
 
 input[type=search] {
