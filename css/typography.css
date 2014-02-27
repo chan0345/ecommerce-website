@@ -175,7 +175,7 @@ ul li {
 	position: relative;
 }
 
-ul li:before {
+p ul li:before {
 	content: "·•·";
 	color: #F60;
 	position: absolute;
