@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .grid {
-	border: 1px dotted red;
+	border: 1px dotted red transparent;
 	overflow: hidden;
 	margin-bottom: 1rem;
 }
