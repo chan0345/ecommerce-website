@@ -167,7 +167,5 @@ nav a:active {
 }
 
 .current {
-	color: #099;
-	background-color: #fff;
-	border: 2px solid #099;
+	background-color: #F60;
 }
