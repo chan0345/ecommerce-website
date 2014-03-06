@@ -23,6 +23,8 @@
 </head>
 
 <body>
+
+{{page.url}}
 <header>
     <div class="unit-s-1">
         <img class="logo" src="http://placehold.it/640x640/&text=Logo" alt="Logo">
@@ -35,9 +37,9 @@
         <a href="#nav" class="nav-btn hide-text ease-all" data-state="inactive"><i class="fa fa-stack"></i><span class="hide-text">Navigation</span></a>
         <nav class="nav nav-top" data-state="collapsed">
             <ul>
-                <li><a href="{{site.baseurl}}/">Home</a></li>
-                <li><a href="{{site.baseurl}}/about/">About</a></li>
-                <li><a href="{{site.baseurl}}/#/">Link 2</a></li>
+                <li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+                <li><a class="{% if page.url == '/about/' %}current{% endif %}"href="{{site.baseurl}}/about/">About</a></li>
+                <li><a class="{% if page.url contains '' %}current{% endif %}"href="{{site.baseurl}}/#/">Link 2</a></li>
                 <li><a href="{{site.baseurl}}/#/">Link 3</a></li>
                 <li><a href="{{site.baseurl}}/#/">Link 4</a></li>
             </ul>
