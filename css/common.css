@@ -25,3 +25,8 @@ html {
 	display: block;
 	width: 100%;
 }
+
+main {
+	padding-left: 10%;
+	padding-right: 10%;
+}
