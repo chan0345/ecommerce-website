@@ -57,7 +57,7 @@ ul {
 .nav-btn:visited {
 	display: block;
 	position: absolute;
-	top: 2px;
+	top: 5px;
 	right: 1%;
 	height: 40px;
 	width: 40px;
@@ -111,6 +111,7 @@ nav a:visited {
 	margin: 0 5px;
 	padding: 5px 45px;
 	border-radius: 15px;
+	border: 2px solid transparent;
 }
 
 nav a:hover,
@@ -166,6 +167,16 @@ nav a:active {
 	}
 }
 
-.current {
+.current,
+.current:link,
+.current:visited {
 	background-color: #F60;
+}
+
+.current:hover,
+.current:focus,
+.current:active {
+	color: #F60;
+	background-color: #fff;
+	border: 2px solid #F60;
 }
