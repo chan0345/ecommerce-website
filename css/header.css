@@ -180,3 +180,15 @@ nav a:active {
 	background-color: #fff;
 	border: 2px solid #F60;
 }
+
+.banner {
+  background: #099 url("../images/banner.svg") no-repeat center center;
+  background-size: cover;
+  padding: 5em 1em 1em;
+  text-align: center;
+}
+
+.banner h2 {
+  color: #F60;
+  height: 2.5em;
+}
