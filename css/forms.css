@@ -22,6 +22,7 @@
 
 input {
 	display: inline-block;
+	font: normal 100%/1.5 'Economica', sans-serif;
 }
 
 input[type=search] {
