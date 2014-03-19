@@ -5,10 +5,7 @@ body {
 	text-align: center;
 }
 
+.large-promo,
 .small-promo {
-	padding: 0 10%;
-}
-
-.small-promo div {
-	margin: 1rem 2%;
+	margin-bottom: 1rem;
 }
