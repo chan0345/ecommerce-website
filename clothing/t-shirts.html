@@ -1,0 +1,25 @@
+---
+layout: default
+title: T-Shirts
+---
+
+<div class="grid">
+	<h1>T-Shirts</h1>
+	<p>All our t-shirt items!</p>
+	{% include sub-nav.html title="" %}
+</div>
+
+<ul>
+	{% for clot in site.pages %}
+		{% if clot.type == 't-shirt' %}
+			<li>
+				<a href="{{site.baseurl}}{{clot.url}}">
+					<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="">
+					{{clot.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
+<!-- <img src="{{site.baseurl}}/images/{{clot.image}}" alt=""> -->

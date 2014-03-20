@@ -1,0 +1,27 @@
+---
+layout: default
+title: Hats
+---
+
+<div class="grid">
+	<h1>Hats</h1>
+	<p>All our hat items!</p>
+	{% include sub-nav.html title="" %}
+</div>
+
+<div>
+	<ul>
+		{% for clot in site.pages %}
+			{% if clot.type == 'hat' %}
+				<li>
+					<a href="{{site.baseurl}}{{clot.url}}">
+						<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="">
+						{{clot.name}}
+					</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
+
+<!-- <img src="{{site.baseurl}}/images/{{clot.image}}" alt=""> -->
