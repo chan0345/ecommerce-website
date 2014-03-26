@@ -3,6 +3,7 @@ layout: default
 category: clothing
 name: Hat 1
 type: hat
+cart: yes
 ---
 
 #Hat 1

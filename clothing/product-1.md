@@ -3,6 +3,7 @@ layout: default
 category: clothing
 name: T-Shirt 1
 type: t-shirt
+cart: yes
 ---
 
 #T-Shirt 1
