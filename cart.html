@@ -1,0 +1,29 @@
+---
+layout: default
+title: Shopping Cart
+---
+
+<div class="grid">
+	<h1>Shopping Cart</h1>
+	<p>Almost there!</p>
+</div>
+
+<div class="grid">
+	<ul>
+		{% for clot in site.pages %}
+			{% if clot.cart == 'yes' %}
+				<li>
+					<a href="{{site.baseurl}}{{clot.url}}">
+						<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="Product Image">
+						<p>{{clot.name}}</p>
+					</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
+
+<div class="grid">
+	<p>Ready to purchase?</p>
+	<a class="btn btn-alt" href="{{site.baseurl}}/thank-you/" alt="Check Out">Check Out</a>
+</div>
