@@ -1,11 +1,11 @@
 ---
 layout: default
-title: T-Shirts
+title: Search Results
 ---
 
 <div class="grid">
 	<h1>Search Results</h1>
-	{% include sub-nav.html title="" %}
+	<p>Did you find what you were looking for?</p>
 </div>
 
 <ul>
@@ -13,7 +13,7 @@ title: T-Shirts
 		{% if clot.type == 't-shirt' %}
 			<li>
 				<a href="{{site.baseurl}}{{clot.url}}">
-					<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="">
+					<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="Product Image">
 					{{clot.name}}
 				</a>
 			</li>
