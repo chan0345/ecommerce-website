@@ -41,16 +41,16 @@
         <a href="#nav" class="nav-btn hide-text ease-all" data-state="inactive" title="Navigation"><i class="fa fa-stack"></i><span class="hide-text">Navigation</span></a>
         <nav class="nav nav-top" data-state="collapsed">
             <ul>
-                <li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/" title="Home">Home</a></li>
-                <li><a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/" title="About">About</a></li>
-                <li><a class="{% if page.url == '/clothing/' %}current{% endif %}" href="{{site.baseurl}}/clothing/" title="Clothing">Clothing</a></li>
-                <li><a class="{% if page.url == '#' %}current{% endif %}" href="{{site.baseurl}}/#/" title="Link 4">Link 4</a></li>
-                <li><a class="{% if page.url == '#' %}current{% endif %}" href="{{site.baseurl}}/#/" title="Link 5">Link 5</a></li>
+                <li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/" title="Home" alt="Home">Home</a></li>
+                <li><a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/" title="About" alt="About">About</a></li>
+                <li><a class="{% if page.url == '/clothing/' %}current{% endif %}" href="{{site.baseurl}}/clothing/" title="Clothing" alt="Clothing">Clothing</a></li>
+                <li><a class="{% if page.url == '#' %}current{% endif %}" href="{{site.baseurl}}/#/" title="Link 4" alt="Link 4">Link 4</a></li>
+                <li><a class="{% if page.url == '#' %}current{% endif %}" href="{{site.baseurl}}/#/" title="Link 5" alt="Link 5">Link 5</a></li>
             </ul>
         </nav>
     </div>
     <div id="pattern" class="pattern">
-        <form action="#" method="post" class="f">
+        <form action="{{site.baseurl}}/search/" method="get" class="f">
             <label class="is-vishidden"></label>     
         <input type="search" placeholder="Search the site..." />
             <input type="submit" class="btn search-submit" value="Go!">
@@ -74,20 +74,20 @@
     <div class="social unit unit-s-1 unit-m-1-2">
         <h2 class="milli">Connect with us!</h2>
         <ul>
-            <li><a href="#" class="ease-all" title="Share on Facebook!"><i class="fa fa-facebook"></i><span class="hide-text">Facebook</span></a></li>
-            <li><a href="#" class="ease-all" title="Follow us on Twitter!"><i class="fa fa-twitter"></i><span class="hide-text">Twitter</span></a></li>
-            <li><a href="#" class="ease-all" title="Follow us on Instagram!"><i class="fa fa-instagram"></i><span class="hide-text">Instagram</span></a></li>
+            <li><a href="#" class="ease-all" title="Share on Facebook!" alt="Share on Facebook!"><i class="fa fa-facebook"></i><span class="hide-text">Facebook</span></a></li>
+            <li><a href="#" class="ease-all" title="Follow us on Twitter!" alt="Follow us on Twitter!"><i class="fa fa-twitter"></i><span class="hide-text">Twitter</span></a></li>
+            <li><a href="#" class="ease-all" title="Follow us on Instagram!" alt="Follow us on Instagram!"><i class="fa fa-instagram"></i><span class="hide-text">Instagram</span></a></li>
         </ul>
     </div>
     <div class="unit unit-s-1 unit-m-1-2">
         <h2 class="milli">Browse</h2>
         <nav>
             <ul>
-                <li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/" title="Home">Home</a></li>
-                <li><a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/" title="About">About</a></li>
-                <li><a class="{% if page.url == '/clothing/' %}current{% endif %}" href="{{site.baseurl}}/clothing/" title="Clothing">Clothing</a></li>
-                <li><a class="{% if page.url == '#' %}current{% endif %}" href="{{site.baseurl}}/#/" title="Link 4">Link 4</a></li>
-                <li><a class="{% if page.url == '#' %}current{% endif %}" href="{{site.baseurl}}/#/" title="Link 5">Link 5</a></li>
+                <li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/" title="Home" alt="Home">Home</a></li>
+                <li><a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/" title="About" alt="About">About</a></li>
+                <li><a class="{% if page.url == '/clothing/' %}current{% endif %}" href="{{site.baseurl}}/clothing/" title="Clothing" alt="Clothing">Clothing</a></li>
+                <li><a class="{% if page.url == '#' %}current{% endif %}" href="{{site.baseurl}}/#/" title="Link 4" alt="Link 4">Link 4</a></li>
+                <li><a class="{% if page.url == '#' %}current{% endif %}" href="{{site.baseurl}}/#/" title="Link 5" alt="Link 5">Link 5</a></li>
             </ul>
         </nav>
     </div>
