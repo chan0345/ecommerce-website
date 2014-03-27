@@ -11,7 +11,7 @@ title: Shopping Cart
 <div class="grid">
 	<ul>
 		{% for clot in site.pages %}
-			{% if clot.cart == 'yes' %}
+			{% if clot.cart %}
 				<li>
 					<a href="{{site.baseurl}}{{clot.url}}">
 						<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="Product Image">
