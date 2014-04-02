@@ -9,7 +9,7 @@ title: Adopt
 	{% include sub-nav.html title="" %}
 </div>
 
-<ul class="unit unit-s-1 unit-m-1-2">
+<ol class="unit gutter unit-s-1 unit-m-1-2">
 	{% for adopt in site.pages %}
 		{% if adopt.type == 'hammerheads' %}
 			<li>
@@ -20,8 +20,8 @@ title: Adopt
 			</li>
 		{% endif %}
 	{% endfor %}
-</ul>
-<ul class="unit unit-s-1 unit-m-1-2">
+</ol>
+<ol class="unit gutter unit-s-1 unit-m-1-2">
 	{% for adopt in site.pages %}
 		{% if adopt.type == 'great-whites' %}
 			<li>
@@ -32,7 +32,7 @@ title: Adopt
 			</li>
 		{% endif %}
 	{% endfor %}
-</ul>
+</ol>
 
 <!-- <img src="{{site.baseurl}}/images/{{clot.image}}" alt=""> -->
 
