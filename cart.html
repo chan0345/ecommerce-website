@@ -11,12 +11,12 @@ title: Shopping Cart
 
 <div class="grid">
 	<ul>
-		{% for clot in site.pages %}
-			{% if clot.cart %}
+		{% for adopt in site.pages %}
+			{% if adopt.cart %}
 				<li>
-					<a href="{{site.baseurl}}{{clot.url}}">
+					<a href="{{site.baseurl}}{{adopt.url}}">
 						<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="Product Image">
-						<p>{{clot.name}}</p>
+						<p>{{adopt.name}}</p>
 					</a>
 				</li>
 			{% endif %}
