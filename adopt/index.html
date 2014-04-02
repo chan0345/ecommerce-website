@@ -9,9 +9,21 @@ title: Adopt
 	{% include sub-nav.html title="" %}
 </div>
 
-<ul>
+<ul class="unit unit-s-1 unit-m-1-2">
 	{% for adopt in site.pages %}
-		{% if adopt.category == 'adopt' %}
+		{% if adopt.type == 'hammerheads' %}
+			<li>
+				<a href="{{site.baseurl}}{{adopt.url}}">
+					<img src="http://placehold.it/200/066/099/&text=Product+Image" alt="Product Image">
+					<p>{{adopt.name}}</p>
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+<ul class="unit unit-s-1 unit-m-1-2">
+	{% for adopt in site.pages %}
+		{% if adopt.type == 'great-whites' %}
 			<li>
 				<a href="{{site.baseurl}}{{adopt.url}}">
 					<img src="http://placehold.it/200/066/099/&text=Product+Image" alt="Product Image">
