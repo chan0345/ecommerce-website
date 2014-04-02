@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Clothing
+title: Adopt
 ---
 
 <div class="grid">
-	<h1>Clothing</h1>
-	<p>All our items for sale!</p>
+	<h1>Adoption Store</h1>
+	<p>All of our sharks ready to be adopted!</p>
 	{% include sub-nav.html title="" %}
 </div>
 
 <ul>
-	{% for clot in site.pages %}
-		{% if clot.category == 'clothing' %}
+	{% for adopt in site.pages %}
+		{% if adopt.category == 'adopt' %}
 			<li>
-				<a href="{{site.baseurl}}{{clot.url}}">
+				<a href="{{site.baseurl}}{{adopt.url}}">
 					<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="Product Image">
-					<p>{{clot.name}}</p>
+					<p>{{adopt.name}}</p>
 				</a>
 			</li>
 		{% endif %}

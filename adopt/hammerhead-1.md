@@ -1,10 +1,11 @@
 ---
 layout: default
-category: clothing
-name: T-Shirt 3
-type: t-shirt
+category: adopt
+name: Hammerhead 1
+type: hammerheads
+cart: yes
 ---
 
-#T-Shirt 3
+#Hammerhead 1
 
 {% include product-details.html title="Product Details" desc="Awesome!" %}

@@ -1,22 +1,22 @@
 ---
 layout: default
-title: Hats
+title: Hammerheads
 ---
 
 <div class="grid">
-	<h1>Hats</h1>
-	<p>All our hat items!</p>
+	<h1>Hammerhead Sharks</h1>
+	<p>All of our Hammerheads ready to be adopted!</p>
 	{% include sub-nav.html title="" %}
 </div>
 
 <div>
 	<ul>
-		{% for clot in site.pages %}
-			{% if clot.type == 'hat' %}
+		{% for adopt in site.pages %}
+			{% if adopt.type == 'hammerheads' %}
 				<li>
-					<a href="{{site.baseurl}}{{clot.url}}">
+					<a href="{{site.baseurl}}{{adopt.url}}">
 						<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="Product Image">
-						<p>{{clot.name}}</p>
+						<p>{{adopt.name}}</p>
 					</a>
 				</li>
 			{% endif %}

@@ -1,21 +1,21 @@
 ---
 layout: default
-title: T-Shirts
+title: Great Whites
 ---
 
 <div class="grid">
-	<h1>T-Shirts</h1>
-	<p>All our t-shirt items!</p>
+	<h1>Great White Sharks</h1>
+	<p>All of our Great Whites ready to be adopted!</p>
 	{% include sub-nav.html title="" %}
 </div>
 
 <ul>
-	{% for clot in site.pages %}
-		{% if clot.type == 't-shirt' %}
+	{% for adopt in site.pages %}
+		{% if adopt.type == 'great-whites' %}
 			<li>
 				<a href="{{site.baseurl}}{{clot.url}}">
 					<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="Product Image">
-					<p>{{clot.name}}</p>
+					<p>{{adopt.name}}</p>
 				</a>
 			</li>
 		{% endif %}

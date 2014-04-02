@@ -1,10 +1,10 @@
 ---
 layout: default
-category: clothing
-name: Hat 3
-type: hat
+category: adopt
+name: Great White 5
+type: great-whites
 ---
 
-#Hat 3
+#Great White 5
 
 {% include product-details.html title="Product Details" desc="Awesome!" %}
