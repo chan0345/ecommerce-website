@@ -26,7 +26,7 @@ input {
 }
 
 input[type=search] {
-	width: 50%;
+	width: 40%;
 	padding: 1em;
 	padding-right: 7em;
 	position: relative;
