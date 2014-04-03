@@ -8,20 +8,20 @@ title: Great Whites
 	<p>All of our Great Whites ready to be adopted!</p>
 	{% include sub-nav.html title="" %}
 </div>
-
-<ul>
-	{% for adopt in site.pages %}
-		{% if adopt.type == 'great-whites' %}
-			<li>
-				<a href="{{site.baseurl}}{{adopt.url}}">
-					<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="Product Image">
-					<p>{{adopt.name}}</p>
-				</a>
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>
-
+<div>
+	<ul>
+		{% for adopt in site.pages %}
+			{% if adopt.type == 'great-whites' %}
+				<li class="inline">
+					<a href="{{site.baseurl}}{{adopt.url}}">
+						<img src="http://placehold.it/200/066/099/&text=Product+Image" alt="Product Image">
+						<p>{{adopt.name}}</p>
+					</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
 <!-- <img src="{{site.baseurl}}/images/{{clot.image}}" alt=""> -->
 
 </main>
