@@ -3,6 +3,7 @@ layout: default
 category: adopt
 name: Great White 5
 type: great-whites
+title: Great White 5
 ---
 
 #Great White 5

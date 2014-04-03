@@ -3,6 +3,7 @@ layout: default
 category: adopt
 name: Hammerhead 4
 type: hammerheads
+title: Hammerhead 4
 ---
 
 #Hammerhead 4

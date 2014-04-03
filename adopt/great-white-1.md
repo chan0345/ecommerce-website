@@ -4,6 +4,7 @@ category: adopt
 name: Great White 1
 type: great-whites
 cart: yes
+title: Great White 1
 ---
 
 #Great White 1

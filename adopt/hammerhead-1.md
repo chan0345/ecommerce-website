@@ -4,6 +4,7 @@ category: adopt
 name: Hammerhead 1
 type: hammerheads
 cart: yes
+title: Hammerhead 1
 ---
 
 #Hammerhead 1
