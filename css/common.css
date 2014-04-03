@@ -30,3 +30,8 @@ main {
 	padding-left: 10%;
 	padding-right: 10%;
 }
+
+.inline {
+	display: inline-block;
+	padding-right: 1rem;
+}
