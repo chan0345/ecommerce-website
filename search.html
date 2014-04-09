@@ -8,20 +8,19 @@ title: Search Results
 	<h1>Search Results</h1>
 	<p>Did you find what you were looking for?</p>
 </div>
-
+<div>
 <ul>
 	{% for adopt in site.pages %}
 		{% if adopt.type == 'hammerheads' %}
-			<li>
+			<li class="inline">
 				<a href="{{site.baseurl}}{{adopt.url}}">
-					<img src="http://placehold.it/100x100/066/099/&text=Product+Image" alt="Product Image">
+					<img src="http://placehold.it/150/066/099/&text=Product+Image" alt="Product Image">
 					{{adopt.name}}
 				</a>
 			</li>
 		{% endif %}
 	{% endfor %}
 </ul>
-
+</div>
 <!-- <img src="{{site.baseurl}}/images/{{clot.image}}" alt=""> -->
-
 </main>
