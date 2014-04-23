@@ -25,17 +25,17 @@ image: hammerheads/wendell-reed.jpg
 	<div class="unit unit-s-1">
 		<h6>May We Also Suggest...</h6>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-1" alt="Product Image">
+			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-1.jpg" alt="Product Image">
 			<p>Hammerhead Anthony</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-1/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-2" alt="Product Image">
+			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-2.jpg" alt="Product Image">
 			<p>Hammerhead Erin</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-2/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-l-1-3">
-			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-3" alt="Product Image">
+			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-3.jpg" alt="Product Image">
 			<p>Hammerhead Ariel</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-3/">See More</a>
 		</div>
