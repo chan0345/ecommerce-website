@@ -5,7 +5,7 @@ name: Hammerhead 1
 type: hammerheads
 cart: yes
 title: Hammerhead 1
-image: <img src"{{site.baseurl}}/images/hammerheads/cristiano-deana.jpg">
+image: hammerheads/cristiano-deana.jpg
 ---
 
 <main class="product-details" role="main">

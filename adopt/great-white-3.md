@@ -4,8 +4,7 @@ category: adopt
 name: Great White 3
 type: great-whites
 title: Great White 3
-image: <img src"{{site.baseurl}}/images/great-whites/brook-ward.jpg">
-
+image: great-whites/brook-ward.jpg
 ---
 
 <main class="product-details" role="main">
