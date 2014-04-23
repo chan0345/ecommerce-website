@@ -47,12 +47,12 @@
 .btn-alt2:link,
 .btn-alt2:visited {
 	background-color: #099;
-	background-image: linear-gradient(to bottom, #099, #FFF);
+	background-image: linear-gradient(to bottom, #099, #066);
 }
 
 .btn-alt2:hover,
 .btn-alt2:focus,
 .btn-alt2:active {
-	background-color: #FFF;
-	background-image: linear-gradient(to bottom, #099, #066);
+	background-color: #099;
+	background-image: linear-gradient(to bottom, #099, #FFF);
 }
