@@ -5,14 +5,14 @@ name: Great White 1
 type: great-whites
 cart: yes
 title: Great White 1
-image: great-whites/terry-goss.jpg
+image: great-whites/brook-ward.jpg
 ---
 
 <main class="product-details" role="main">
 	<h2>Great White Sarah</h2>
 	<div class="grid">
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
-			<img class="img-flex" src="{{site.baseurl}}/images/great-whites/terry-goss.jpg" alt="Product Image">
+			<img class="img-flex" src="{{site.baseurl}}/images/great-whites/brook-ward.jpg" alt="Product Image">
 		</div>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
 			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue tempor nisi eget malesuada. Nunc malesuada felis quis aliquet blandit. Suspendisse porttitor consectetur nunc, ut fermentum tellus mattis non. Duis molestie sem risus, ut ultrices nisl dignissim.</p>
