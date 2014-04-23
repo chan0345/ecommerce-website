@@ -25,17 +25,17 @@ image: hammerheads/david-biesack.jpg
 	<div class="unit unit-s-1">
 		<h6>May We Also Suggest...</h6>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-1.jpg" alt="Product Image">
+			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-1/"><img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image"></a>
 			<p>Hammerhead Anthony</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-1/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-3.jpg" alt="Product Image">
+			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-3/"><img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image"></a>
 			<p>Hammerhead Ariel</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-3/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-l-1-3">
-			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-4.jpg" alt="Product Image">
+			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-4/"><img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image"></a>
 			<p>Hammerhead Chris</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-4/">See More</a>
 		</div>
