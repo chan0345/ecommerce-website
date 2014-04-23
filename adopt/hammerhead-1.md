@@ -26,21 +26,18 @@ image: hammerheads/cristiano-deana.jpg
 	<div class="unit unit-s-1">
 		<h6>May We Also Suggest...</h6>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-			<img src="http://placehold.it/100x100" alt="">
-			<h3 class="milli">Product Name</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue tempor nisi eget malesuada.</p>
+			<img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image">
+			<h3 class="milli">{{adopt.name}}</h3>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-2/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-			<img src="http://placehold.it/100x100" alt="">
-			<h3 class="milli">Product Name</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue tempor nisi eget malesuada.</p>
+			<img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image">
+			<h3 class="milli">{{adopt.name}}</h3>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-3/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-l-1-3">
-			<img src="http://placehold.it/100x100" alt="">
-			<h3 class="milli">Product Name</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue tempor nisi eget malesuada.</p>
+			<img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image">
+			<h3 class="milli">{{adopt.name}}</h3>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-4/">See More</a>
 		</div>
 	</div>
