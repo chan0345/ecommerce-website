@@ -1,0 +1,3 @@
+Sitemap: http://chan0345.github.io/ecommerce-website/sitemap.xml
+
+User-agent: *

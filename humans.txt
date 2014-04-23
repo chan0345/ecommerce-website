@@ -1,0 +1,55 @@
+# humanstxt.org
+
+# TEAM
+
+Anita Chanthavong - Designer, Developer
+@anitachnthvng
+
+Thomas J. Bradley - Professor
+
+---
+
+# IMAGE CREDITS
+
+##Home Image, Lemons, Limes, Grapefruit, Oranges, 
+Satsumas, Tangerines:
+
+-Public domain images from pixabay.com
+-License: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+##Blood Oranges:
+- Link: https://www.flickr.com/photos/lacatholique/8448513555/sizes/o/
+- Image by Leslie Seaton, via Flickr
+- License: https://creativecommons.org/licenses/by/2.0/legalcode
+
+##Pummelos:
+- Link: https://www.flickr.com/photos/verzo/7642397992/sizes/l
+- Image by Roberto Verzo, via Flickr
+- License: https://creativecommons.org/licenses/by/2.0/legalcode
+
+##Sweeties:
+- Link: https://www.flickr.com/photos/andersofsydney/3974632692/sizes/l
+- Image by Anders Alexander, via Flickr
+- License: https://creativecommons.org/licenses/by/2.0/legalcode
+
+##Uglis:
+- Link: https://www.flickr.com/photos/rachelmargaret/2886652974/sizes/l
+- Image by Rachel Zack, via Flickr
+- License: https://creativecommons.org/licenses/by/2.0/legalcode
+
+##Orange Tree:
+- Link: https://www.flickr.com/photos/miggslives/5222735235/sizes/l
+- Image by Rafael Castillo, via Flickr
+- License: https://creativecommons.org/licenses/by/2.0/legalcode
+- Image has not been altered
+
+
+
+---
+
+# TECHNOLOGY
+
+-Sublime Text 2
+-Github
+-Jekyll
+-Adobe Illustrator CC
