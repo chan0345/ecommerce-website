@@ -15,7 +15,6 @@ title: Adopt
 			{% if adopt.category == 'adopt' %}
 				<li class="inline">
 					<a href="{{site.baseurl}}{{adopt.url}}">
-						{% for adopt in site.pages}
 						<img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image">
 						<p>{{adopt.name}}</p>
 					</a>
@@ -24,7 +23,4 @@ title: Adopt
 		{% endfor %}
 	</ul>
 </div>
-
-<!-- <img src="{{site.baseurl}}/images/{{clot.image}}" alt=""> -->
-
 </main>
