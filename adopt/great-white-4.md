@@ -1,7 +1,7 @@
 ---
 layout: default
 category: adopt
-name: Great White 4
+name: Great White Louis
 type: great-whites
 title: Great White 4
 image: great-whites/kqedquest.jpg

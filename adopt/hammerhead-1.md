@@ -1,10 +1,10 @@
 ---
 layout: default
 category: adopt
-name: Hammerhead 1
+name: Hammerhead Anthony
 type: hammerheads
 cart: yes
-title: Hammerhead 1
+title: Hammerhead Anthony
 image: hammerheads/cristiano-deana.jpg
 ---
 

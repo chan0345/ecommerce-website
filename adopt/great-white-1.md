@@ -1,10 +1,10 @@
 ---
 layout: default
 category: adopt
-name: Great White 1
+name: Great White Sarah
 type: great-whites
 cart: yes
-title: Great White 1
+title: Great White Sarah
 image: great-whites/brook-ward.jpg
 ---
 
