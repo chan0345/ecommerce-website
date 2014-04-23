@@ -1,9 +1,9 @@
 ---
 layout: default
 category: adopt
-name: Hammerhead 3
+name: Hammerhead Ariel
 type: hammerheads
-title: Hammerhead 3
+title: Hammerhead Ariel
 image: hammerheads/gary-j-wood.jpg
 ---
 

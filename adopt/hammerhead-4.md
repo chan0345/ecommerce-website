@@ -1,9 +1,9 @@
 ---
 layout: default
 category: adopt
-name: Hammerhead 4
+name: Hammerhead Chris
 type: hammerheads
-title: Hammerhead 4
+title: Hammerhead Chris
 image: hammerheads/wendell-reed.jpg
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 category: adopt
-name: Hammerhead 2
+name: Hammerhead Erin
 type: hammerheads
-title: Hammerhead 2
+title: Hammerhead Erin
 image: hammerheads/david-biesack.jpg
 ---
 

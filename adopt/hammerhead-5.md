@@ -1,9 +1,9 @@
 ---
 layout: default
 category: adopt
-name: Hammerhead 5
+name: Hammerhead Michelle
 type: hammerheads
-title: Hammerhead 5
+title: Hammerhead Michelle
 image: hammerheads/michelle-bender-2.jpg
 ---
 
