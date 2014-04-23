@@ -8,7 +8,7 @@ image: great-whites/kqedquest.jpg
 ---
 
 <main class="product-details" role="main">
-	<h2>Great White 4</h2>
+	<h2>Great White Louis</h2>
 	<div class="grid">
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
 			<img class="img-flex" src="{{site.baseurl}}/images/great-whites/kqedquest.jpg" alt="Product Image">

@@ -8,7 +8,7 @@ image: great-whites/ken-bondy.jpg
 ---
 
 <main class="product-details" role="main">
-	<h2>Great White 3</h2>
+	<h2>Great White Steve</h2>
 	<div class="grid">
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
 			<img class="img-flex" src="{{site.baseurl}}/images/great-whites/ken-bondy.jpg" alt="Product Image">

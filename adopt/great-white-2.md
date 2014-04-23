@@ -8,7 +8,7 @@ image: great-whites/hermanus-backpacker.jpg
 ---
 
 <main class="product-details" role="main">
-	<h2>Great White 2</h2>
+	<h2>Great White Lori</h2>
 	<div class="grid">
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
 			<img class="img-flex" src="{{site.baseurl}}/images/great-whites/hermanus-backpacker.jpg" alt="Product Image">

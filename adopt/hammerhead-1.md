@@ -9,7 +9,7 @@ image: hammerheads/cristiano-deana.jpg
 ---
 
 <main class="product-details" role="main">
-	<h2>Hammerhead 1</h2>
+	<h2>Hammerhead Anthony</h2>
 	<div class="grid">
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
 			<img class="img-flex" src="{{site.baseurl}}/images/hammerheads/cristiano-deana.jpg" alt="Product Image">
