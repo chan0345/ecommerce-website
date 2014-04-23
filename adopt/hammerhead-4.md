@@ -25,17 +25,17 @@ image: hammerheads/wendell-reed.jpg
 	<div class="unit unit-s-1">
 		<h6>May We Also Suggest...</h6>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-1/"><img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image"></a>
+			<a href="{{site.baseurl}}/adopt/hammerhead-1/"><img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image"></a>
 			<p>Hammerhead Anthony</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-1/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-2/"><img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image"></a>
+			<a href="{{site.baseurl}}/adopt/hammerhead-2/"><img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image"></a>
 			<p>Hammerhead Erin</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-2/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-l-1-3">
-			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-3/"><img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image"></a>
+			<a href="{{site.baseurl}}/adopt/hammerhead-3/"><img src="{{site.baseurl}}/images/{{adopt.image}}" alt="Product Image"></a>
 			<p>Hammerhead Ariel</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-3/">See More</a>
 		</div>
