@@ -7,6 +7,7 @@ title: Hammerhead 5
 ---
 
 <main class="product-details" role="main">
+	<h2>Hammerhead 5</h2>
 	<div class="grid">
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
 			<img class="img-flex" src="{{site.baseurl}}/images/hammerheads/michelle-bender-2.jpg" alt="Hammerhead 5">
