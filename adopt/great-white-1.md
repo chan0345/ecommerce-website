@@ -18,7 +18,7 @@ title: Great White 1
 		</div>
 		<div class="unit unit-s-1 unit-l-1-2">
 			<p>Price: $1 per day</p>
-			<a class="btn " href="{{site.baseurl}}/adopt/">Back to Adoption Store</a>
+			<a class="btn btn-alt2" href="{{site.baseurl}}/adopt/">Back to Adoption Store</a>
 			<a class="btn giga btn-alt" href="{{site.baseurl}}/cart/">Adopt Now!</a>
 		</div>
 	</div>

@@ -48,7 +48,7 @@
 .btn-alt2:visited {
 	background-color: #099;
 	background-image: linear-gradient(to bottom, #099, #066);
-	border: 2px solid #FFF;
+	border: 2px solid rgba(255,255,255,0);
 }
 
 .btn-alt2:hover,

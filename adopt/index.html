@@ -15,6 +15,7 @@ title: Adopt
 			{% if adopt.category == 'adopt' %}
 				<li class="inline">
 					<a href="{{site.baseurl}}{{adopt.url}}">
+						{% for adopt in site.pages}
 						<img src="http://placehold.it/150/066/099/&text=Product+Image" alt="Product Image">
 						<p>{{adopt.name}}</p>
 					</a>
