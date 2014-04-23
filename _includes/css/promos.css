@@ -9,3 +9,7 @@ main {
 .small-promo {
 	margin-bottom: 1rem;
 }
+
+.large-promo img {
+	margin-top: 1rem;
+}
