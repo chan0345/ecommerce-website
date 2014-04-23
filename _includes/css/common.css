@@ -23,8 +23,7 @@ html {
 
 .img-flex {
 	display: block;
-	width: 100%;
-	max-width: 600px;
+	width: 80%;
 }
 
 main {
