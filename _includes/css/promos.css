@@ -10,6 +10,7 @@ main {
 	margin-bottom: 1rem;
 }
 
-.large-promo img {
+.large-promo img,
+.small-promo img {
 	margin-top: 1rem;
 }
