@@ -3,7 +3,7 @@ layout: default
 category: adopt
 name: Great White Frank
 type: great-whites
-title: Great White 5
+title: Great White Frank
 image: great-whites/terry-goss.jpg
 ---
 

@@ -3,7 +3,7 @@ layout: default
 category: adopt
 name: Great White Steve
 type: great-whites
-title: Great White 3
+title: Great White Steve
 image: great-whites/ken-bondy.jpg
 ---
 

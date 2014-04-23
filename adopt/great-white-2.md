@@ -3,7 +3,7 @@ layout: default
 category: adopt
 name: Great White Lori
 type: great-whites
-title: Great White 2
+title: Great White Lori
 image: great-whites/hermanus-backpacker.jpg
 ---
 
