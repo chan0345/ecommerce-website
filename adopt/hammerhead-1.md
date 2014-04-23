@@ -18,7 +18,7 @@ title: Hammerhead 1
 			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue tempor nisi eget malesuada. Nunc malesuada felis quis aliquet blandit. Suspendisse porttitor consectetur nunc, ut fermentum tellus mattis non. Duis molestie sem risus, ut ultrices nisl dignissim.</p>
 		</div>
 		<div class="unit unit-s-1 unit-l-1-2">
-			<p>Price: $1 per month</p>
+			<p>Price: $1 per day</p>
 			<a class="btn " href="{{site.baseurl}}/adopt/">Back to Adoption Store</a>
 			<a class="btn giga btn-alt" href="{{site.baseurl}}/cart/">Adopt Now!</a>
 		</div>
