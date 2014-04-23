@@ -26,17 +26,17 @@ image: hammerheads/david-biesack.jpg
 		<h6>May We Also Suggest...</h6>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
 			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-1" alt="Product Image">
-			<h3 class="milli">Hammerhead Anthony</h3>
+			<p>Hammerhead Anthony</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-1/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
 			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-3" alt="Product Image">
-			<h3 class="milli">Hammerhead Ariel</h3>
+			<p>Hammerhead Ariel</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-3/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-l-1-3">
 			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-4" alt="Product Image">
-			<h3 class="milli">Hammerhead Chris</h3>
+			<p>Hammerhead Chris</p>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-4/">See More</a>
 		</div>
 	</div>
