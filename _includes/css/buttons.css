@@ -53,6 +53,6 @@
 .btn-alt2:hover,
 .btn-alt2:focus,
 .btn-alt2:active {
-	background-color: #099;
+	color: #099;
 	background-image: linear-gradient(to bottom, #099, #FFF);
 }
