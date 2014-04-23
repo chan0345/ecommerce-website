@@ -25,21 +25,18 @@ image: hammerheads/michelle-bender-2.jpg
 	<div class="unit unit-s-1">
 		<h6>May We Also Suggest...</h6>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-			<img src="http://placehold.it/100x100" alt="">
-			<h3 class="milli">Product Name</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue tempor nisi eget malesuada.</p>
-			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-2/">See More</a>
+			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-1" alt="Product Image">
+			<h3 class="milli">Hammerhead Anthony</h3>
+			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-1/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
-			<img src="http://placehold.it/100x100" alt="">
-			<h3 class="milli">Product Name</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue tempor nisi eget malesuada.</p>
+			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-3" alt="Product Image">
+			<h3 class="milli">Hammerhead Ariel</h3>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-3/">See More</a>
 		</div>
 		<div class="unit unit-s-1 unit-l-1-3">
-			<img src="http://placehold.it/100x100" alt="">
-			<h3 class="milli">Product Name</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue tempor nisi eget malesuada.</p>
+			<img src="{{site.baseurl}}/images/hammerheads/hammerhead-4" alt="Product Image">
+			<h3 class="milli">Hammerhead Chris</h3>
 			<a class="btn micro" href="{{site.baseurl}}/adopt/hammerhead-4/">See More</a>
 		</div>
 	</div>
