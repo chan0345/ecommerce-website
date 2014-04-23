@@ -5,7 +5,7 @@ name: Great White 1
 type: great-whites
 cart: yes
 title: Great White 1
-image: {{site.baseurl}}/images/great-whites/terry-goss.jpg
+image: <img src"{{site.baseurl}}/images/great-whites/terry-goss.jpg">
 ---
 
 <main class="product-details" role="main">

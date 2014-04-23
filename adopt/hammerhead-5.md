@@ -4,6 +4,7 @@ category: adopt
 name: Hammerhead 5
 type: hammerheads
 title: Hammerhead 5
+image: <img src"{{site.baseurl}}/images/hammerheads/michelle-bender-2.jpg">
 ---
 
 <main class="product-details" role="main">
