@@ -4,14 +4,14 @@ category: adopt
 name: Great White 3
 type: great-whites
 title: Great White 3
-image: great-whites/brook-ward.jpg
+image: great-whites/ken-bondy.jpg
 ---
 
 <main class="product-details" role="main">
 	<h2>Great White 3</h2>
 	<div class="grid">
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
-			<img class="img-flex" src="{{site.baseurl}}/images/great-whites/brook-ward.jpg" alt="Product Image">
+			<img class="img-flex" src="{{site.baseurl}}/images/great-whites/ken-bondy.jpg" alt="Product Image">
 		</div>
 		<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
 			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue tempor nisi eget malesuada. Nunc malesuada felis quis aliquet blandit. Suspendisse porttitor consectetur nunc, ut fermentum tellus mattis non. Duis molestie sem risus, ut ultrices nisl dignissim.</p>
